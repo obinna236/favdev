@@ -1,0 +1,884 @@
+/* media query for my profile  */
+
+@media (max-width: 760px) {
+  .profile {
+    height: 75rem;
+  }
+}
+@media (max-width: 555px) {
+  .profile {
+    height: 80rem;
+  }
+}
+
+@media (max-width: 487px) {
+  .profile {
+    height: 59rem;
+  }
+
+  .profile h3 {
+    font-size: 25px;
+    padding-left: 3rem;
+  }
+
+  .profile h1 {
+    font-size: 70px;
+    padding-left: 3rem;
+  }
+
+  .profile p {
+    padding-left: 3rem;
+    font-size: 24px;
+  }
+
+  .profile b {
+    font-size: 60px;
+  }
+
+  .profile .btn {
+    margin-left: 2.6rem;
+  }
+
+  .image-profile {
+    width: 22%;
+    padding: 10rem;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 477px) {
+  .profile{
+    height: 58rem;
+  }
+}
+
+
+@media (max-width: 458px) {
+  .profile {
+    height: 59rem;
+  }
+}
+@media (max-width: 416px) {
+  .profile {
+    height: 59rem;
+  }
+}
+@media (max-width: 376px) {
+  .image-profile {
+    width: 18%;
+    padding: 7rem;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 344px) {
+  .profile {
+    height: 53rem;
+  }
+
+}
+@media (max-width: 329px) {
+  .profile {
+    height: 53rem;
+  }
+
+}
+/* profile media query ends */
+
+/* reveal on scroll media query starts */
+@media (min-width: 830px) {
+  .container {
+    height: 44rem;
+  }
+}
+
+@media (max-width: 829px) {
+  .container {
+    height: 45rem;
+  }
+
+  .container section {
+    margin-left: 3rem;
+  }
+
+  .boxes {
+    display: inline-grid;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 781px) {
+    .container{
+      height: 65rem;
+    }
+  }
+
+  @media (min-width: 761px) {
+
+    .container{
+      height: 67rem;
+    }
+    .container section {
+      top: 12rem;
+      position: relative;
+    }
+  }
+  @media (min-width: 756px) {
+    .container section {
+      margin-top: 0rem;
+    }
+  }
+
+  @media (min-width: 553px) {
+    .container section {
+      margin-top: -4rem;
+    }
+  }
+  @media (max-width: 431px) {
+    .container section {
+      margin-left: 2rem;
+    }
+  }
+  @media (max-width: 402px) {
+    .boxes {
+      width: 20rem;
+    }
+  }
+  @media (max-width: 373px) {
+    .boxes {
+      width: 17rem;
+    }
+  }
+  @media (min-width: 377px) {
+    .container section{
+      top: 5rem;
+      position: relative;
+    }
+  }
+  @media (min-width: 360px) {
+    .container section{
+      margin-top: -2rem;
+    }
+  }
+
+
+  @media (max-width: 322px) {
+    .container section {
+      margin-left: 1rem;
+    }
+
+    .boxes {
+      width: 17rem;
+    }
+  }
+}
+
+/* reveal on scroll media query ends */
+
+
+/* about text and image media query starts */
+
+@media (min-width: 250px) {
+  
+  .about-me{
+    margin-top: 2.5rem;
+    height: 128rem;
+    overflow-x: hidden;
+  }
+
+  .about-me h1{
+    font-size: 30px;
+  }
+  
+  .about-me h2{
+    font-size: 30px;
+  }    
+
+  .about-img .medal {
+    left: 1.5rem;
+    top: 9rem;
+    width: 6rem;
+  }
+
+  .about-img .first-image {
+    width: 9rem;
+    height: 17rem;
+    left: 8.5rem;
+    position: relative;
+  }
+  
+  .about-img .second-image {
+    width: 14rem;
+    margin-left: -5rem;
+  }
+
+  .about-img .text {
+    left: 5.6rem;
+    top: -6rem;
+  }
+  
+  .social-media-icons {
+    position: relative;
+    left: -1rem;
+    top: -4rem;
+  }
+
+  .about-description {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    color: #eee;
+    text-align: center;
+  }
+
+  .table-me{
+    width: 90%;
+    height: 30rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+  
+  .table-me .ths{
+    position: relative;
+    left: 2rem;
+    top: 0.1rem;
+  }
+  
+  
+  
+}
+
+@media (min-width: 315px) {
+
+  .about-img .first-image {
+    width: 11rem;
+    height: 17rem;
+    left: 8.5rem;
+    position: relative;
+  }
+
+  .about-img .second-image {
+    width: 16rem;
+    margin-left: -5rem;
+  }
+
+
+}
+@media (min-width: 351px) {
+
+  .about-img .first-image {
+    width: 13rem;
+    height: 17rem;
+    left: 8.5rem;
+    position: relative;
+  }
+
+
+
+}
+@media (min-width: 383px) {
+
+  .about-img .first-image {
+    width: 15rem;
+    height: 17rem;
+    left: 8.5rem;
+    position: relative;
+  }
+
+  .about-img .second-image {
+    width: 16rem;
+    margin-left: -2rem;
+  }
+
+  .about-img .text {
+    left: 8.6rem;
+    top: -6rem;
+  }
+
+
+
+}
+@media (min-width: 447px) {
+
+  .about-img .first-image {
+    width: 18rem;
+    height: 17rem;
+    left: 8.5rem;
+    position: relative;
+  }
+
+  .about-img .text {
+  left: 20.6rem;
+  top: -13rem;
+  }
+
+  .social-media-icons {
+    position: relative;
+    left: -1rem;
+    top: -10rem;
+  }
+
+  .about-description {
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    color: #eee;
+    text-align: center;
+  }
+
+
+}
+@media (min-width: 563px) {
+  .about-img .medal {
+    left: 4rem;
+    top: 9rem;
+    width: 6rem;
+  }
+
+  .about-img .first-image {
+    width: 18rem;
+    height: 17rem;
+    left: 12rem;
+    position: relative;
+  }
+
+  .about-img .second-image {
+    width: 16rem;
+    margin-left: -0.1rem;
+  }
+
+  .about-img .text {
+    left: 22.6rem;
+    top: -13rem;
+    }
+  
+    .table-me{
+      width: 90%;
+      height: 15rem;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      text-align: justify;
+    }
+    
+    .table-me .ths{
+      position: relative;
+      left: 18rem;
+      top: -14rem;
+    }
+  
+}
+
+@media (max-width: 691px) {
+
+}
+
+
+@media (min-width: 731px) {
+  .about-img .medal {
+    left: 6rem;
+    top: 9rem;
+    width: 6rem;
+  }
+
+  .about-img .first-image {
+    width: 18rem;
+    height: 17rem;
+    left: 14rem;
+    position: relative;
+  }
+
+  .social-media-icons {
+    position: relative;
+    left: -7rem;
+    top: -10rem;
+  }
+
+  .table-me{
+    width: 70%;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+  }
+  
+  .table-me .ths{
+    position: relative;
+    left: 18rem;
+    top: -14rem;
+  }
+
+
+
+}
+
+@media (min-width: 782px) {
+  .about-me{
+    margin-top: -15rem;
+  }
+
+}
+@media (min-width: 830px) {
+  .about-me{
+    margin-top: -1rem;
+  }
+
+  .social-media-icons {
+    position: relative;
+    left: -13rem;
+    top: -10rem;
+  }
+
+  .table-me{
+    width: 70%;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+  }
+  
+  .table-me .ths{
+    position: relative;
+    left: 18rem;
+    top: -14rem;
+  }
+
+
+}
+
+@media (min-width: 1023px) {
+  .about-description {
+    margin-left: 39rem;
+    margin-top: -41rem;
+    color: #eee;
+    text-align: justify;
+  }
+
+
+  /* .about-me button {
+    margin-left: 10rem;
+  } */
+
+  .table-me{
+    width: 70%;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-top: 14rem;
+
+  }
+
+  
+
+}
+
+
+@media (min-width: 1109px) {
+  .about-me{
+    margin-top: -1rem;
+  }
+  .social-media-icons {
+    position: relative;
+    left: -20rem;
+    top: -10rem;
+  }
+  
+  .table-me{
+    width: 70%;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-top: 14rem;
+
+  }
+  
+  .table-me .ths{
+    position: relative;
+    left: 18rem;
+    top: -14rem;
+  }
+
+
+}
+
+
+
+@media (min-width: 1199px) {
+
+  .about-me{
+    margin-top: -16rem;
+    height: 60rem;
+  }
+
+  .social-media-icons {
+    position: relative;
+    left: -28rem;
+    top: -10rem;
+  }
+
+  /* .about-me button {
+    margin-left: 2rem;
+  } */
+
+  /* .table-me{
+    width: 70%;
+    height: 15rem;
+    margin-left: 4rem;
+    margin-top: 20rem;
+
+  } */
+
+  .table-me{
+    width: 40%;
+    height: 15rem;
+    border: solid #fff;
+    border-radius: 1rem;
+    margin-left: 39rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+  
+
+}
+
+
+/* counter cards begins */
+
+@media (min-width: 250px) {
+  .container2 {
+    width: 100%;
+    height: 32rem;
+    margin-top: 15rem;
+  }
+  
+  .container2 section {
+    position: relative;
+    top: -5rem;
+    left: -5rem;
+  }
+
+  .cards {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+
+  .cards h1 {
+    left: 2.4rem;
+    position: relative;
+  }
+  .cards p {
+    position: relative;
+    left: 4rem;
+  }
+  
+  
+  
+}
+
+@media (min-width: 300px) {
+  .container2 section {
+    position: relative;
+    top: -10rem;
+    left: -5rem;
+  }
+
+}
+
+@media (min-width: 336px) {
+  .container2 section {
+    top: -17rem;
+  }
+
+  .cards {
+    width: 18rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+
+  .cards h1 {
+    left: 4.4rem;
+    position: relative;
+  }
+  .cards p {
+    position: relative;
+    left: 6rem;
+  }
+  
+  
+  
+}
+@media (min-width: 388px) {
+  .container2 section {
+    top: -19rem;
+    left: -6rem;
+  }
+
+  .cards {
+    width: 22rem;
+    height: 15rem;
+    margin-top: 1rem;
+  }
+
+  .cards h1 {
+    left: 7.4rem;
+    position: relative;
+  }
+  .cards p {
+    position: relative;
+    left: 9rem;
+  }
+  
+  
+  
+}
+@media (min-width: 452px) {
+  .container2 section {
+    top: -22rem;
+    left: -3rem;
+
+  }
+  
+}
+
+@media (min-width: 562px) {
+  .container2 section {
+    top: -26rem;
+    left: -1rem;
+  }
+
+}
+@media (min-width: 563px) {
+  .container2 {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .container2 section {
+    top: -44rem;
+    left: -1rem;
+  }
+
+}
+
+@media (min-width: 592px) {
+  /* .container2 section {
+    position: relative;
+    top: -26rem;
+    left: 4rem;
+  }   */
+
+
+  
+}
+@media (min-width: 632px) {
+
+  .cards {
+    width: 25rem;
+  }
+  
+}
+@media (min-width: 708px) {
+
+  .cards {
+    width: 30rem;
+  }
+  
+}
+@media (min-width: 836px) {
+  .container2 {
+    width: 100%;
+    height: 6rem;
+  }
+
+  .container2 section #card3{
+    margin-left: 11rem;
+  }
+
+  .cards {
+    width: 22rem;
+  }
+  
+}
+
+@media (min-width: 1023px) {
+  .container2 section {
+    top: -70rem;
+  }
+
+}
+
+
+@media (min-width: 1109px) {
+  .container2 {
+    width: 100%;
+    height: 25rem;
+  }
+  
+  .container2 section {
+    margin-top: 10rem;
+    margin-left: 6rem;
+  }
+  
+  .cards {
+    width: 22rem;
+    height: 15rem;
+    display: inline-flex;
+    border-radius: 1rem;
+    background-color: rgb(49, 86, 197);
+    margin-left: 1rem;
+    text-align: center;
+  }
+  
+  .cards h1 {
+    font-size: 70px;
+    left: 8.4rem;
+    position: relative;
+    top: 2rem;
+    color: rgb(104, 204, 244);
+  }
+  .cards p {
+    position: relative;
+    left: 9rem;
+    top: 2.5rem;
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(104, 204, 244);
+  }
+  
+  .cards .text {
+    position: absolute;
+    margin-top: 8rem;
+    /* margin-left: 5rem; */
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.4rem;
+    font-size: 20px;
+  }
+
+  .container2 section #card3{
+    margin-left: 11rem;
+  }
+
+  
+  
+}
+@media (min-width: 1192px) {
+
+  .table-me{
+    width: 40%;
+    height: 15rem;
+    border: solid #fff;
+    border-radius: 1rem;
+    margin-left: 39rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+  
+  .container2 {
+    width: 100%;
+    height: 25rem;
+  }
+  
+  .container2 section {
+    margin-top: -75rem;
+    margin-left: 6rem;
+    position: static;
+  }
+  
+  .cards {
+    width: 22rem;
+    height: 15rem;
+    display: inline-flex;
+    border-radius: 1rem;
+    background-color: rgb(49, 86, 197);
+    margin-left: 1rem;
+    text-align: center;
+  }
+  
+  .cards h1 {
+    font-size: 70px;
+    left: 8.4rem;
+    position: relative;
+    top: 2rem;
+    color: rgb(104, 204, 244);
+  }
+  .cards p {
+    position: relative;
+    left: 9rem;
+    top: 2.5rem;
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(104, 204, 244);
+  }
+  
+  .cards .text {
+    position: absolute;
+    margin-top: 8rem;
+    /* margin-left: 5rem; */
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.4rem;
+    font-size: 20px;
+  }
+
+  .container2 section #card3{
+    margin-left: 0;
+  }
+
+  
+  
+}
+
+@media (min-width: 1199px) {
+  .container2 {
+    width: 100%;
+    height: 25rem;
+    margin-top: 0rem;
+  }
+  
+  .container2 section {
+    margin-top: -6rem;
+    margin-left: 6rem;
+  }
+  
+  .cards {
+    width: 22rem;
+    height: 15rem;
+    display: inline-flex;
+    border-radius: 1rem;
+    background-color: rgb(49, 86, 197);
+    margin-left: 1rem;
+    text-align: center;
+  }
+  
+  .cards h1 {
+    font-size: 70px;
+    left: 8.4rem;
+    position: relative;
+    top: 2rem;
+    color: rgb(104, 204, 244);
+  }
+  .cards p {
+    position: relative;
+    left: 9rem;
+    top: 2.5rem;
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(104, 204, 244);
+  }
+  
+  .cards .text {
+    position: absolute;
+    margin-top: 8rem;
+    /* margin-left: 5rem; */
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.4rem;
+    font-size: 20px;
+  }
+  
+  .container2 section #card3{
+    margin-left: 1rem;
+  }
+
+}
+
